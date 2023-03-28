@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Contracts;
 
 public class SayaTubeVideo
 {
@@ -8,6 +9,8 @@ public class SayaTubeVideo
 
     public SayaTubeVideo(string title)
     {
+        Contract.Assert(title.Length < 200);
+        Contract.Assert(title != null);
         Random rand = new Random();
         this.title = title;
         this.id = rand.Next();
@@ -16,7 +19,19 @@ public class SayaTubeVideo
 
     public void IncreasePlayCount(int playCount)
     {
-        this.playCount += playCount;
+        Contract.Assert(playCount < 25000000);
+        Contract.Assert(playCount > 0);
+        try
+        {
+            checked
+            {
+                this.playCount += playCount;
+            }
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine(e.Message);
+        }
     }
 
     public void PrintVideoDetails()
