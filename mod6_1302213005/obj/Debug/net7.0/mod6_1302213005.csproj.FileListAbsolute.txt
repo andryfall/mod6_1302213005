@@ -1,0 +1,15 @@
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\bin\Debug\net7.0\mod6_1302213005.exe
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\bin\Debug\net7.0\mod6_1302213005.deps.json
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\bin\Debug\net7.0\mod6_1302213005.runtimeconfig.json
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\bin\Debug\net7.0\mod6_1302213005.dll
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\bin\Debug\net7.0\mod6_1302213005.pdb
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.csproj.AssemblyReference.cache
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.AssemblyInfoInputs.cache
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.AssemblyInfo.cs
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.csproj.CoreCompileInputs.cache
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.dll
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\refint\mod6_1302213005.dll
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.pdb
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\mod6_1302213005.genruntimeconfig.cache
+C:\Users\PRAKTIKAN\Documents\GitHub\mod6_1302213005\mod6_1302213005\obj\Debug\net7.0\ref\mod6_1302213005.dll
