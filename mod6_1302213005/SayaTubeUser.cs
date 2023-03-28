@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Diagnostics.Contracts;
 
 public class SayaTubeUser
@@ -6,6 +7,7 @@ public class SayaTubeUser
     private int id;
     private List<SayaTubeVideo> uploadedVideos;
     public string username;
+    
 
     public SayaTubeUser(string username)
     {
@@ -38,14 +40,13 @@ public class SayaTubeUser
     }
     public void PrintAllVideoPlaycount()
     {
-        int i = 0;
+        int k;
         Console.WriteLine("User : " + this.username);
-        for (i = 0; i < uploadedVideos.Count; i++)
+        for (k = 0; k < uploadedVideos.Count; k++)
         {
-            Console.WriteLine("Video " + (i + 1) + " judul: " + uploadedVideos[i].getTitle());
+            Console.WriteLine("Video " + (k + 1) + " judul: " + uploadedVideos[k].getTitle());
         }
-
-        Contract.Ensures(i <= 8);
+        Debug.Assert(k <= 8);
     }
 }
 

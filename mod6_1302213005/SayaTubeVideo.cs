@@ -19,8 +19,8 @@ public class SayaTubeVideo
 
     public void IncreasePlayCount(int playCount)
     {
-        Contract.Assert(playCount < 25000000);
-        Contract.Assert(playCount > 0);
+        Contract.Assert(playCount <= 25000000);
+        Contract.Assert(playCount >= 0);
         try
         {
             checked
